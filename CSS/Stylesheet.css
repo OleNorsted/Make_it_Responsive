@@ -6,3 +6,17 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    width: 85%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-continer, .nav-links{
+    display: flex;
+}
