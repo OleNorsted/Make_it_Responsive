@@ -44,7 +44,7 @@ nav {
 }
 
 /* ------------- Nav end ------------------- */
-
+/* ------------- Main start ------------- */
 .presentation {
     background-color: cornflowerblue;
     display: flex;
@@ -62,9 +62,9 @@ nav {
 }
 .intro-text p{
     margin-top: 5px;
-    font-size: 34px;
+    font-size: 20px;
 }
-
+/* ------------- Main end --------------- */
 /* ------------- Footer start ------------ */
 
 footer {
