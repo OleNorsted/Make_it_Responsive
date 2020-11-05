@@ -10,6 +10,9 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* ----- Nav start ----- */
+
 header{
     display: flex;
     width: 85%;
@@ -39,3 +42,43 @@ nav {
 .nav-link {
     font-size: 18px;
 }
+
+/* ------------- Nav end ------------------- */
+
+.presentation {
+    background-color: cornflowerblue;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+}
+.intro{
+    flex: 1;
+    background-color: darkblue;
+}
+.intro-text h2{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.intro-text p{
+    margin-top: 5px;
+    font-size: 34px;
+}
+
+/* ------------- Footer start ------------ */
+
+footer {
+    height: 3vh;
+    margin: auto;
+    align-items: center;
+    background-color: chocolate;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex: 2;
+}
+
+/* ------------- Footer end ------------ */
