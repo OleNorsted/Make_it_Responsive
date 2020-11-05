@@ -1,3 +1,37 @@
+
+
+.tittel {
+text-align: center;
+}
+
+.osas {
+    
+}
+
+.staff1 {
+    position: absolute;
+    display: flex;
+    flex: 1;
+    top: 20;
+    left: 0;
+}
+
+.staff2 {
+    position: absolute;
+    display: flex;
+    flex: 1;
+    top: 20;
+    right: 0;
+}
+
+.staff3{
+    position: absolute;
+    display: flex;
+    flex: 1;
+    top: 20;
+    right: 0;
+}
+
 li{
     list-style: none;
 }
