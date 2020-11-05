@@ -1,0 +1,10 @@
+.Schedule{
+    align-items: center;
+    width: 75%;
+    margin: 12.5%;
+}
+th,td{
+    width: 25%;
+    text-align: center;
+    padding-top: 2%;
+}

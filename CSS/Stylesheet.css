@@ -16,7 +16,26 @@ header{
     height: 10vh;
     margin: auto;
     align-items: center;
+    background-color: chocolate;
 }
-.logo-continer, .nav-links{
+.logo-container, .nav-links{
     display: flex;
+}
+.logo-container {
+    flex: 1;
+}
+.logo {
+    font-weight: 500;
+    margin: 5px;
+    width: 30%;
+}
+nav {
+    flex: 2;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link {
+    font-size: 18px;
 }
