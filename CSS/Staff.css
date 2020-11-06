@@ -4,38 +4,49 @@
 text-align: center;
 }
 
-.osas {
-    
+.staff{
+    display: flex;
+    flex: 1;
+    flex-shrink: inherit;
+    max-width: 80%;
 }
 
-.staff1 {
+.staff1 { 
     position: absolute;
-    display: flex;
-    flex: 6;
     top: 20;
     left: 0;
     margin-top: 5%;
-    margin-left: 10%;
-
-
+    margin-left: 21.5%;
+    text-align: center;
 }
 
 .staff2 {
     position: absolute;
-    display: flex;
-    flex: 7;
     top: 20;
     right: 0;
     margin-top: 5%;
-    margin-right: 10%;
+    margin-right: 30%;
+    text-align: center;
 }
 
-.staff3{
+.staff3{ 
     position: absolute;
-    display: flex;
-    flex: 8;
     top: 20;
     right: 0;
+    margin-top: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.staff4{
+    max-width:100%; 
+    height:auto; 
+    position: absolute;
+    top: 20;
+    left: 0;
+    margin-top: 25%;
+    margin-left: 30%;
+    text-align: center;
 }
 
 li{
