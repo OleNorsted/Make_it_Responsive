@@ -30,6 +30,13 @@
     }
   }
 
+  @media screen and (max-width: 300px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
   @media screen and (max-width: 650px) {
     .column2 {
       width: 100%;
