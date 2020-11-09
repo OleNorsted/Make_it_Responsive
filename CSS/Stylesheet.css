@@ -19,7 +19,7 @@ header{
     height: 10vh;
     margin: auto;
     align-items: center;
-    background-color: chocolate;
+    background-color: #EFEFEF;
 }
 .logo-container, .nav-links{
     display: flex;
@@ -31,9 +31,10 @@ header{
     font-weight: 500;
     margin: 5px;
     width: 30%;
+    background-color: white;
 }
 nav {
-    flex: 2;
+    flex: 3;
 }
 .nav-links {
     justify-content: space-around;
@@ -41,28 +42,51 @@ nav {
 }
 .nav-link {
     font-size: 18px;
+    padding: 10px;
+    background-color: white;
+}
+.nav-main{
+    color: white;
+    background: black;
+    font-size: 18px;
+    padding: 10px;
 }
 
 /* ------------- Nav end ------------------- */
 /* ------------- Main start ------------- */
 .presentation {
-    background-color: cornflowerblue;
+    background-color: ghostwhite;
     display: flex;
     width: 90%;
     margin: auto;
     height: 80vh;
+    align-items: center;
 }
 .intro{
     flex: 1;
-    background-color: ghostwhite;
 }
 .intro-text h2{
-    font-size: xx-large;
-    font-weight: 800;
+    height: 100%;
+    font-size: 44px;
+    font-weight: 500;
 }
 .intro-text p{
+    height: 100%;
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .cover-pic{
@@ -72,17 +96,17 @@ nav {
     margin: auto;
 }
 .cover-pic img{
-    height: 100%;
+    height: 100vh;
     filter: drop-shadow(0px 5px 3px black);
 }
 /* ------------- Main end --------------- */
 /* ------------- Footer start ------------ */
 
 footer {
-    height: 3vh;
+    height: 4vh;
     margin: auto;
     align-items: center;
-    background-color: chocolate;
+    background-color: #EFEFEF;
 }
 
 footer ul {
