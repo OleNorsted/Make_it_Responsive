@@ -46,6 +46,7 @@ td{
     display: flex;
     justify-content: center;
     width: 80%;
+    height: 80%
 }
 td{
     text-align: left;
@@ -55,4 +56,18 @@ td{
 }
 tr{
     text-align: left;
+}
+
+footer {
+    height: 3vh;
+    margin: auto;
+    align-items: center;
+    background-color: chocolate;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex: 2;
 }
