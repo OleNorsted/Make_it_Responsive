@@ -4,3 +4,4 @@
 [1106/122006.347:ERROR:settings.cc(325)] Settings version is not 1
 [1106/141122.482:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
 [1106/150132.601:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
+[1109/141759.722:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
