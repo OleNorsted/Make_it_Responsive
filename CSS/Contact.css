@@ -1,44 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Poppins', sans-serif;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-header{
-    display: flex;
-    width: 85%;
-    height: 10vh;
-    margin: auto;
-    align-items: center;
-    background-color: chocolate;
-}
-.logo-container, .nav-links{
-    display: flex;
-}
-.logo-container {
-    flex: 1;
-}
-.logo {
-    font-weight: 500;
-    margin: 5px;
-    width: 30%;
-}
-nav {
-    flex: 2;
-}
-.nav-links {
-    justify-content: space-around;
-    list-style: none;
-}
-.nav-link {
-    font-size: 18px;
-}
+
 td{
     text-align: left;
 }
@@ -58,16 +18,15 @@ tr{
     text-align: left;
 }
 
-footer {
-    height: 3vh;
-    margin: auto;
-    align-items: center;
-    background-color: chocolate;
+.contactTable{
+    font-size: 1.5rem; 
 }
 
-footer ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    flex: 2;
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 40px;
+    max-height: 110px;
 }
+
