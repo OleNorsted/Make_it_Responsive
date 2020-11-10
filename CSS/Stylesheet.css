@@ -28,10 +28,8 @@ header{
     flex: 1;
 }
 .logo {
-    font-weight: 500;
     margin: 5px;
-    width: 30%;
-    background-color: white;
+    width: 10vw;
 }
 nav {
     flex: 3;
