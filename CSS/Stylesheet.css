@@ -19,7 +19,7 @@ header{
     height: 10vh;
     margin: auto;
     align-items: center;
-    background-color: #EFEFEF;
+    background-color:  #d8560038;
 }
 .logo-container, .nav-links{
     display: flex;
@@ -28,7 +28,7 @@ header{
     flex: 1;
 }
 .logo {
-    margin: 5px;
+    margin: 8px 0px 0px 20px;
     width: 10vw;
 }
 nav {
@@ -39,14 +39,14 @@ nav {
     list-style: none;
 }
 .nav-link {
-    font-size: 18px;
+    font-size: 1.3vw;
     padding: 10px;
     background-color: white;
 }
 .nav-main{
     color: white;
     background: black;
-    font-size: 18px;
+    font-size: 1.3vw;
     padding: 10px;
 }
 
@@ -84,6 +84,10 @@ nav {
     height: 40px;
     cursor: pointer;
     font-size: 16px;
+}
+.cta-select:hover{
+    background: orange;
+
 }
 
 .cover-pic{
