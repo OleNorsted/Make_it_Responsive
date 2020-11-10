@@ -18,6 +18,10 @@ tr{
     text-align: left;
 }
 
+.contactTable{
+    font-size: 1.5rem; 
+}
+
 .foot{
     position: fixed;
     bottom: 0;
