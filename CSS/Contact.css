@@ -1,20 +1,16 @@
-
-td{
-    text-align: left;
-}
 .container{
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 80%
+    margin-top: 35px;
 }
 td{
     text-align: left;
     padding: 5px;
     margin: 10px;
-
 }
 tr{
+    justify-content: space-around;
     text-align: left;
 }
 
