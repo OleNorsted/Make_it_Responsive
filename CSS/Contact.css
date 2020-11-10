@@ -18,6 +18,38 @@ tr{
     font-size: 1.5rem; 
 }
 
+.contactUs{
+    display: block;
+}
+
+form{
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+button{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-color: black;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+button:hover{
+    cursor: pointer;
+}
+.message{
+    content: "\a";
+    white-space: pre;
+}
+
 .foot{
     position: fixed;
     bottom: 0;
