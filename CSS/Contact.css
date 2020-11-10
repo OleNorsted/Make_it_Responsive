@@ -6,7 +6,8 @@ td{
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 80%
+    height: 80%;
+    background-color: ghostwhite;
 }
 td{
     text-align: left;
@@ -20,6 +21,31 @@ tr{
 
 .contactTable{
     font-size: 1.5rem; 
+}
+
+.sendEmail{
+    justify-content: right;
+    display: block;
+}
+
+form{
+    width: 75%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+button{
+    background-color: ghostwhite;
+}
+.message{
+    content: "\a";
+    white-space: pre;
 }
 
 .foot{
