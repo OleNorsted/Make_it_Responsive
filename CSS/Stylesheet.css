@@ -64,19 +64,16 @@ nav {
 }
 .intro{
     flex: 1;
-    height: 100%;
-    width: auto;
+    margin-right: 25px;
 }
 .intro-text h2{
     height: 100%;
-    font-size: 44px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 800;
 }
 .intro-text p{
-    width: auto;
-    height: 100%;
     margin-top: 5px;
-    font-size: 100%;
+    font-size: 18px;
 }
 
 .cta{
@@ -111,7 +108,7 @@ footer {
     height: 4vh;
     margin: auto;
     align-items: center;
-    background-color: #EFEFEF;
+    background-color: #d85600af;
 }
 
 footer ul {
@@ -119,6 +116,7 @@ footer ul {
     justify-content: space-around;
     list-style: none;
     flex: 2;
+    color: rgb(0, 0, 0);
 }
 
 /* ------------- Footer end ------------ */
