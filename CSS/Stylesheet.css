@@ -53,9 +53,8 @@ nav {
 /* ------------- Nav end ------------------- */
 /* ------------- Main start ------------- */
 .presentation {
-    background-color: ghostwhite;
     display: flex;
-    width: 90%;
+    width: 60%;
     margin: auto;
     height: 80vh;
     align-items: center;
@@ -97,6 +96,15 @@ nav {
     width: 100%;
     height: auto;
     filter: drop-shadow(0px 5px 3px black);
+}
+
+.idea-bulb{
+    position: absolute;
+    top: 17%;
+    right: 10vw;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.05;
 }
 
 /* ------------- Main end --------------- */
