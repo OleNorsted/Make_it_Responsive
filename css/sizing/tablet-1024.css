@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px){
+    header{
+        height: 6vh;
+    }
+    footer{
+        font-size: 90%;
+    }
+}
