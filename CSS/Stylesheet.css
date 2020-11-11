@@ -3,9 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -13,37 +15,50 @@ a {
 
 /* ----- Nav start ----- */
 
-header{
+header {
     display: flex;
     width: 85%;
     height: 10vh;
     margin: auto;
     align-items: center;
-    background-color:  #d8560038;
+    background-color: #d8560038;
 }
-.logo-container, .nav-links{
+
+.logo-container, .nav-links {
     display: flex;
 }
+
 .logo-container {
     flex: 1;
 }
+
 .logo {
     margin: 8px 0px 0px 20px;
     width: 10vw;
 }
+
 nav {
     flex: 3;
 }
+
 .nav-links {
     justify-content: space-around;
     list-style: none;
 }
+
 .nav-link {
     font-size: 1.3vw;
     padding: 10px;
     background-color: white;
+    border: 2px solid white;
+    border-radius: 6px;
 }
-.nav-main{
+
+.nav-link:hover {
+    border: 2px solid salmon
+}
+
+.nav-main {
     color: white;
     background: black;
     font-size: 1.3vw;
@@ -51,6 +66,7 @@ nav {
 }
 
 /* ------------- Nav end ------------------- */
+
 /* ------------- Main start ------------- */
 
 .presentation {
@@ -60,25 +76,30 @@ nav {
     height: 80vh;
     align-items: center;
 }
-.intro{
+
+.intro {
     flex: 1;
     margin-right: 25px;
 }
-.intro-text h2{
+
+.intro-text h2 {
     height: 100%;
     font-size: 40px;
     font-weight: 800;
 }
-.intro-text p{
+
+.intro-text p {
     margin-top: 5px;
     font-size: 18px;
 }
 
-.cta{
+.cta {
     padding: 50px 0px 0px 0px;
 }
-.cta-select{
+
+.cta-select {
     border: 2px solid black;
+    border-radius: 5px;
     background: transparent;
     color: black;
     width: 20%;
@@ -86,24 +107,25 @@ nav {
     cursor: pointer;
     font-size: 16px;
 }
-.cta-select:hover{
-    background: orange;
 
+.cta-select:hover {
+    border: 2px solid salmon;
 }
 
-.cover-pic{
+.cover-pic {
     flex: 1;
     justify-content: center;
     height: 60vh;
     margin: auto;
 }
-.cover-pic img{
+
+.cover-pic img {
     width: 100%;
     height: auto;
     filter: drop-shadow(0px 5px 3px black);
 }
 
-.idea-bulb{
+.idea-bulb {
     position: absolute;
     top: 17%;
     right: 10vw;
@@ -113,6 +135,7 @@ nav {
 }
 
 /* ------------- Main end --------------- */
+
 /* ------------- Footer start ------------ */
 
 footer {
@@ -120,6 +143,10 @@ footer {
     margin: auto;
     align-items: center;
     background-color: #d85600af;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
 }
 
 footer ul {
