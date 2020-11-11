@@ -47,10 +47,10 @@ nav {
 }
 
 .nav-link {
-    font-size: 1.3vw;
+    font-size: 18px;
     padding: 10px;
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid transparent;
     border-radius: 6px;
 }
 
@@ -63,7 +63,7 @@ nav {
     background: black;
     border: 2px solid transparent;
     border-radius: 6px;
-    font-size: 1.3vw;
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -112,19 +112,6 @@ nav {
 
 .cta-select:hover {
     border: 2px solid salmon;
-}
-
-.cover-pic {
-    flex: 1;
-    justify-content: center;
-    height: 60vh;
-    margin: auto;
-}
-
-.cover-pic img {
-    width: 100%;
-    height: auto;
-    filter: drop-shadow(0px 5px 3px black);
 }
 
 .idea-bulb {
