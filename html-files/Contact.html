@@ -27,7 +27,7 @@
     <main>
         <div class="container">
             <div class="contactUs">
-                <h1 class="contactTitle">Reach us here</h1>
+                <h2 class="contactTitle">Reach us here</h2>
                 <table class="contactTable">
                     <tr>
                         <th>E-mail:</th>
@@ -51,9 +51,9 @@
                 <div class="sendEmail">
                     <h2 class="EmailTitle">Reach us through our e-mail!</h2>
                     <form>
-                        <input type="text" placeholder="Your Name">
-                        <input type="text" placeholder="E-mail Address">
-                        <input type="text" placeholder="Message" class="message">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="E-mail Address" required>
+                        <textarea name="message" id="message" cols="4" rows="4" placeholder="Message" required></textarea>
                         <button>Send</button>
                     </form>
                 </div>
