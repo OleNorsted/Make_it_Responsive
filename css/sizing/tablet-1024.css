@@ -2,7 +2,7 @@
     header{
         height: 6vh;
     }
-    footer{
-        font-size: 90%;
+    .presentation{
+        flex-direction: column;
     }
 }
