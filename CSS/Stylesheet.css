@@ -61,6 +61,8 @@ nav {
 .nav-main {
     color: white;
     background: black;
+    border: 2px solid transparent;
+    border-radius: 6px;
     font-size: 1.3vw;
     padding: 10px;
 }
