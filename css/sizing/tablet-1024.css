@@ -1,8 +1,38 @@
 @media screen and (max-width: 1024px){
+    /* -------------- index.html ---------- */
     header{
+        margin-top: 20px;
         height: 6vh;
     }
     .presentation{
         flex-direction: column;
+        width: 85%;
+    }
+    .intro{
+        margin-top: 6vh;
+        text-align: center;
+    }
+    .intro-text p{
+        margin-top: 15px;
+        font-size: 26px;
+    }
+    .cta-select{
+        height: 60px;
+        font-size: 24px;
+    }
+    .idea-bulb{
+        right: 7.5vw;
+    }
+
+    /* --------------- contacts.html ----------- */
+
+    .container{
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .contactUs{
+        width: 85%;
     }
 }
