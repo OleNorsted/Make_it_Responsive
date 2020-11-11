@@ -1,8 +1,8 @@
 .container{
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin-top: 35px;
+    width: 70%;
+    margin-top: 20px;
 }
 td{
     text-align: left;
@@ -15,46 +15,50 @@ tr{
 }
 
 .contactTable{
-    font-size: 1.5rem; 
+    font-size: 1.3vw;
 }
 
 .contactUs{
     display: block;
 }
 
+.EmailTitle{
+    margin-top: 30px;
+}
+
 form{
-    float: left;
-    padding: 5px;
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 input{
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0px 0px 0px;
+    display: block;
+    border: 2px solid black;
+}
+textarea{
+    padding: 10px;
+    margin-top: 10px;
     display: block;
 }
 button{
+    margin-top: 10px;
     background-color: white;
-    margin: 10px;
     padding: 10px;
-    border-color: black;
+    border: 2px solid black;
     width: 100px;
-    text-align: center;
-    float: right;
 }
 button:hover{
     cursor: pointer;
+    border: 2px solid salmon;
 }
-.message{
-    content: "\a";
-    white-space: pre;
+#message{
+    height: 105px;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
 }
 
-.foot{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    min-height: 40px;
-    max-height: 110px;
-}
+
 
