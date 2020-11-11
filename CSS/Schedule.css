@@ -18,11 +18,3 @@ p{
     margin: 10px;
     font-size: large;
 }
-
-.foot{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    min-height: 40px;
-    max-height: 110px;
-}
