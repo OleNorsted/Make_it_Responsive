@@ -144,11 +144,12 @@ footer {
     height: 4vh;
     margin: auto;
     align-items: center;
-    background-color: #d85600af;
+    background-color: #d8560038;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 4%;
+    font-size: 100%;
 }
 
 footer ul {

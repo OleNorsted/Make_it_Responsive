@@ -1,0 +1,7 @@
+@media screen and (max-width: 1024px){
+    footer{
+        font-size: 90%;
+        align-items: center;
+        margin: auto;
+    }
+}
