@@ -21,18 +21,12 @@
 }
 
 @media screen and (max-width: 650px) {
-  .column {
+  .column, .column2 {
     width: 100%;
     display: block;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .column2 {
-    width: 100%;
-    display: block;
-  }
-}
 
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
