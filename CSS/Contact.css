@@ -2,20 +2,16 @@
     display: flex;
     justify-content: center;
     width: 70%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 td{
     text-align: left;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
 }
 tr{
     justify-content: space-around;
     text-align: left;
-}
-
-.contactTable{
-    font-size: 1.3vw;
 }
 
 .contactUs{
@@ -23,13 +19,13 @@ tr{
 }
 
 .EmailTitle{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 form{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 75%;
 }
 
 input{
@@ -43,17 +39,7 @@ textarea{
     margin-top: 10px;
     display: block;
 }
-button{
-    margin-top: 10px;
-    background-color: white;
-    padding: 10px;
-    border: 2px solid black;
-    width: 100px;
-}
-button:hover{
-    cursor: pointer;
-    border: 2px solid salmon;
-}
+
 #message{
     height: 105px;
     font-family: 'Poppins', sans-serif;
