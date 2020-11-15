@@ -20,37 +20,3 @@ p{
     text-align: center;
     margin: 10px;
 }
-/*
-@media screen and (max-width:500px){
-    th, td{
-    width: 30%;
-    font-size: 1.7vw;
-    }
-}
-
-@media screen and (min-width:1022px){
-.hamburger{
-    display:none;
-}
-}
-
-@media screen and (max-width:1023px){
-
-    header{
-        height: 6vh;
-    }
-    
-    .hamburger img{
-        margin: 0;
-        top: 0;
-        height: 3vh;
-        padding-right: 10px;
-        display: block;
-    }
-    
-    nav{
-        display: none;
-    }
-    
-}
-*/
