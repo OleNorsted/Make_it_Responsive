@@ -5,12 +5,14 @@
 }
 
 body {
+    background-color: #fff9eb;
     font-family: 'Poppins', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: black;
+    background-color: transparent;
 }
 #title{
     font-size: 35px;
@@ -27,7 +29,8 @@ header {
     height: 10vh;
     margin: auto;
     align-items: center;
-    background-color: #d8560038;
+    background-color: rgb(227, 236, 236);
+    border: 3px outset #5700f865;
 }
 
 .logo-container, .nav-links {
@@ -36,20 +39,24 @@ header {
 
 .logo-container {
     flex: 1;
+    background-color: transparent;
 }
 
 .logo {
     margin: 8px 0px 0px 20px;
     width: 130px; 
+    background-color: transparent;
 }
 
 nav {
     flex: 3;
+    background-color: transparent;
 }
 
 .nav-links {
     justify-content: space-around;
     list-style: none;
+    background-color: transparent;
 }
 
 .nav-link {
@@ -61,7 +68,7 @@ nav {
 }
 
 .nav-link:hover {
-    border: 2px solid salmon
+    border: 2px solid #5700f865
 }
 .nav-main {
     color: white;
@@ -113,7 +120,7 @@ nav {
     margin-top: 20px;
     border: 2px solid black;
     border-radius: 5px;
-    background: transparent;
+    background: white;
     color: black;
     width: 20%;
     height: 40px;
@@ -122,14 +129,14 @@ nav {
 }
 
 .cta-select:hover {
-    border: 2px solid salmon;
+    border: 2px solid #5700f865;
 }
 
 .idea-bulb {
     position: absolute;
     top: 17%;
     right: 10vw;
-    z-index: -1;
+    z-index: 1;
     height: 60%;
     opacity: 0.05;
 }
@@ -143,11 +150,10 @@ footer {
     height: 4vh;
     margin: auto;
     align-items: center;
-    background-color: #d8560038;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 4%;
+    height: 5%;
     font-size: 1.3vw;
 }
 
@@ -157,6 +163,8 @@ footer ul {
     list-style: none;
     flex: 2;
     color: rgb(0, 0, 0);
+    border-top: 3px solid #5700f865;
+    background-color: white;
 }
 
 /* ------------- Footer end ------------ */

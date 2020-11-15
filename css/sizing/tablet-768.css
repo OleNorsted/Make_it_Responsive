@@ -12,6 +12,8 @@
         margin: 0;
         height: 10vh;
         width: 100%;
+        border: transparent;
+        border-bottom: 3px outset #5700f865;
     }
     nav{
         display: none;
@@ -61,5 +63,12 @@
     }
     #message {
         height: 60px;
+    }
+    .column{
+        float: inherit;
+        width: 100%;
+    }
+    footer{
+        height: 2%;
     }
 }
